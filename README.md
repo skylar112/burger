@@ -18,6 +18,7 @@ The user will have a list of burgers that were already populated using MySQL.  C
 * Javascript
 * jQuery
 * MySQL
+* ORM Framework
 * Node.js
     - express
     - mysql
