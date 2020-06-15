@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Family Guy Burgers!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/burger_style.css" type="text/css">
+    <script src="assets/js/burger.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center" id="top-bar">
+                <img src="assets/img/burger.jpg" alt="burger">
+                <h1>Eat-Da-Burger!</h1>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-6 text-center enter_section">
+                    <p>Enter a burger of your choice &  "Submit".</p>
+                    <form class="add-burger">
+                        <input type="text" class="form-control" id="burger_namea" name="burger_name"></input>
+                        <button type="submit" class="btn btn-primary submit" id="text-enter-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-12 text-center enter_section">
+                <p>Devour and Delete a burger!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col-md-3" id="not_devoured">
+        </div>
+        <div class="col-md-3" id="devoured">
+        </div>
+    </div>
+</body>
+</html>

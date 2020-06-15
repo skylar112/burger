@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(134, 115, 6);
+  color: white;
+  font-family: 'Piedra', cursive;
+}
+.submit {
+  margin: 10px;
+}
+img {
+  width: 25%;
+}
+.enter_section {
+  margin: 10px;
+}
+.burger-row {
+  margin: 10px;
+}
