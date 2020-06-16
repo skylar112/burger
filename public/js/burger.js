@@ -22,7 +22,7 @@ $(document).ready(function () {
   $(document).on("click", ".devour", function (event) {
     var id = $(this).data("id");
     var newBurgerState = {
-      devoured: 1
+      devoured: true
     };
     $.ajax("/burgers/" + id, {
       type: "PUT",

@@ -1,7 +1,11 @@
 body {
   background-image: url('https://assets.foxdcg.com/dpp-uploaded/images/family-guy/seriesDetail_s17_v2.jpg?fit=inside%7C*:620');
-  color: white;
+  color: rgb(71, 60, 73);
   font-family: 'Piedra', cursive;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(123, 168, 209);
 }
 .submit {
   margin: 10px;
