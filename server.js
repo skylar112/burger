@@ -1,19 +1,17 @@
-var express = require ("express");
+const express = require("express");
+const app = express();
 
-var app = express();
-var PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3500;
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.use(express.static("public"));
 
-app.use(express.urlencoded({
-  extended: true
-}));
-app.use(express.json());
+const routes = require("./controller/burgers_controllers");
 
-var routes = require("./controller/burger"); 
 app.use(routes);
 
 app.listen(PORT, function() {
-  console.log("Server listen on: http://localhost:" + PORT);
+  console.log("App listening on PORT: http://localhost:" + PORT);
 });
-
